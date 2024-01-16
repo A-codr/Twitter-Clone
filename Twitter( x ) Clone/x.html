@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="xstyle.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <title>X web Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- left side -->
+
+      <div class="left">
+        <div class="logo"><img src="img-svgs/X-logo.png" /></div>
+        <nav>
+          <ul>
+            <li>
+              <a href="home.html"
+                ><img class="invert" src="img-svgs/home.svg" alt="" />Home</a
+              >
+            </li>
+            <li>
+              <a href="explore.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/explore.svg"
+                  alt=""
+                />Explore</a
+              >
+            </li>
+            <li>
+              <a href="notification.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/notification.svg"
+                  alt=""
+                />Notification</a
+              >
+            </li>
+            <li>
+              <a href="messages.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/message.svg"
+                  alt=""
+                />Messages</a
+              >
+            </li>
+            <li>
+              <a href="grok.html"
+                ><img class="invert" src="img-svgs/grok.svg" alt="" />Grok</a
+              >
+            </li>
+            <li>
+              <a href="lists.html"
+                ><img class="invert" src="img-svgs/lists.svg" alt="" />Lists</a
+              >
+            </li>
+            <li>
+              <a href="bookmarks.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/bookmarks.svg"
+                  alt=""
+                />Bookmarks</a
+              >
+            </li>
+            <li>
+              <a href="communities.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/communities.svg"
+                  alt=""
+                />Communities</a
+              >
+            </li>
+            <li>
+              <a href="premium.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/premium.svg"
+                  alt=""
+                />Premium</a
+              >
+            </li>
+            <li>
+              <a href="profile.html"
+                ><img
+                  class="invert"
+                  src="img-svgs/profile.svg"
+                  alt=""
+                />Profile</a
+              >
+            </li>
+            <li>
+              <a href="more.html"
+                ><img class="invert" src="img-svgs/more.svg" alt="" />More</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <div class="btn">
+          <a href="" class="nav-btn">Post</a>
+        </div>
+
+        <div class="user-profile">
+          <h3>A-codr</h3>
+          <div class="user-img">
+            <img src="img-svgs/user-img.jpeg" alt="user-img" />
+            <div class="user-name">@a-codr_6</div>
+            <div class="user-more">
+              <img class="invert" src="img-svgs/user-more.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- mid section -->
+
+      <div class="mid">
+        <div class="nav-bar">
+          <ul>
+            <li><a href="">For you</a></li>
+            <li><a href="">Following</a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li>
+              <a href="#" id="settingsIcon"><img class="invert settings" src="img-svgs/settings.svg" alt="settings" /></a>
+              <div class="setting-menu" id="settingsMenu">
+                <img class="invert" src="img-svgs/left-arrow.svg" alt="left">
+                <h2>Timeline Settings</h2>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="header">
+          <a href=""><img src="img-svgs/user-img.jpeg" /></a>
+          <input type="text" placeholder="What is happening ?!" />
+          <img class="invert" src="img-svgs/up-img.svg" alt="up-img" />
+          <img class="invert" src="img-svgs/gift.svg" alt="gift" />
+          <img class="invert" src="img-svgs/tweet.svg" alt="tweet" />
+        </div>
+
+        <div class="add-btn">
+          <img class="invert" src="img-svgs/add.svg" alt="add-btn" />
+        </div>
+        
+      </div>
+
+      <!-- right side -->
+
+      <div class="right">
+        <div class="bar">
+          <div class="search">
+            <img class="invert" src="img-svgs/search.svg" />
+            <input type="text" placeholder="search" />
+          </div>
+        </div>
+
+        <div class="sub-box">
+          <h2>Subscribe to Premium</h2>
+          <p>
+            Subscribe to unlock new features and if eligible, receive a share of
+            ads revenue.
+          </p>
+          <button><a href="">Subscribe</a></button>
+        </div>
+
+        <div class="happening-box">
+          <h2>What's happening</h2>
+          <a href="">Show more</a>
+        </div>
+
+        <div class="follow-box">
+          <h2>Who to follow</h2>
+          <a href="">Show more</a>
+        </div>
+
+        <div class="message-box-container"> 
+        <div class="message-box">
+          <h2>Messages</h2>
+          <span>
+          <a href="" onclick="toggleHeight();"><img class="invert" src="img-svgs/new-message.svg"></a>
+          <a href="" onclick="toggleHeight();"><img class="invert" src="img-svgs/expand.svg"></a>  
+        </span>       
+        </div>
+        <div class="msg-rqsts"><img class="invert" src="img-svgs/message.svg">Message requests</div>
+        <h1>Welcome to your<br> inbox!</br></h1>
+        <p>Drop a line, share posts and more with private<br>conversations between you and others on X.</br></p>
+        <button class="btn"><a href="#">Write a message</a></button>
+      </div>
+     
+
+      </div>
+
+
+    </div>
+
+    <script src="xscript.js"></script>
+  </body>
+</html>
